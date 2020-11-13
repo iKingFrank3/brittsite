@@ -1,0 +1,99 @@
+.main{ /*create the size of the gradient blue background*/
+	background: linear-gradient(to right, #e3f2fd, #42a5f5);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+    background-position: top;
+}
+
+.information{
+    position: absolute;
+    margin-top: 280px;
+}
+
+nav{ /*reposition the navigation links*/
+	width: 80%;
+  position: relative;
+  margin: 20px auto;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  flex-basis: 20%;
+}
+
+.logo img{
+  width: 150px;
+}
+
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.nav-links ul li a{
+  color: black;
+  text-decoration: none;
+}
+.information{
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 75%;
+  left: 25%;
+  transform: translateY(-50%);
+}
+
+
+.one{
+	position: static;
+  top: 10px;
+  right: 100px;
+}
+
+.headone{
+  position:relative;
+  width:100px;
+  height:100px;
+  left:-210px;
+  top:60px;
+}
+
+.two{
+	position: static;
+	top: 10px;
+	left: 350px;
+
+}
+
+.headtwo{
+  position:relative;
+  width:100px;
+  height:100px;
+  left:-210px;
+  top:90px;
+}
+.three{
+  bottom: 10px;
+  left: 50px;
+
+}
+.headthree{
+  position:relative;
+  width:100px;
+  height:100px;
+  left:-210px;
+  top:90px;
+}
+.four{
+  bottom: 150px;
+  right:350px;
+}
